@@ -4,6 +4,6 @@
 
 ```sh
 . build/envsetup.sh
-lunch twrp_a33x-eng
+lunch twrp_m34x-eng
 make recoveryimage
 ```
