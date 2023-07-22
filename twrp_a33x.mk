@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := a33x
+PRODUCT_RELEASE_NAME := m34x
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a33x/device.mk)
+$(call inherit-product, device/samsung/m34x/device.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -37,9 +37,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a33x/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_a33x
-PRODUCT_DEVICE := a33x
-PRODUCT_MODEL := SM-A336B
+PRODUCT_NAME := twrp_m34x
+PRODUCT_DEVICE := m34x
+PRODUCT_MODEL := SM-M346B
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
