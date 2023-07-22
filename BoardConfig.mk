@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a33x
+LOCAL_PATH := device/samsung/m34x
 
 # Bootloader
 BOARD_VENDOR := samsung
